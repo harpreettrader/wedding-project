@@ -1,0 +1,23 @@
+/* styles/MainContent.css */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    
+  }
+  
+  section {
+    text-align: center;
+    color: #3a3d44;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .HomeIMG {
+    height: auto;
+    max-width: 100%;
+  }
+  

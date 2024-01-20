@@ -1,0 +1,33 @@
+/* styles/Footer.css */
+
+  .main-footer{
+    background-color: #3a3d44;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .copyright {
+    font: size 1rem;
+    color: #d2d6e0;
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-top:1rem;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #d2d6e0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  

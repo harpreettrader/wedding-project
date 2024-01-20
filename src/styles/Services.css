@@ -1,0 +1,63 @@
+/* styles/Services.css */
+
+.services-container {
+    max-width: 80vw;
+    margin: 3rem auto;
+    padding: 3rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem; /* Converted from 20px to rem */
+}
+
+.service-box {
+    border: 0.0625rem solid #cececf; /* Converted from 1px to rem */
+    padding: 0.625rem; /* Converted from 10px to rem */
+    background-color: #dfdfe1;
+}
+
+.service-box h3 {
+    color: #3a3d44;
+}
+
+.service-details {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.service-details img {
+    height: auto;
+    max-width: 40%;
+}
+
+.service-details div {
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.service-details h3 {
+    text-align: center;
+    
+}
+
+/* Apply styles to the alternate service details */
+.service-details:nth-child(even) {
+    flex-direction: row-reverse; /* Reverse order for even-numbered items */
+}
+
+.service-details:nth-child(even) div {
+    text-align: right;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c6c6ce;
+}
+
+.sub-services p {
+ margin: 1rem;
+ padding: 1rem;
+}
